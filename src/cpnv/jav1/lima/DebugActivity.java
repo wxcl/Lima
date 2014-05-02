@@ -55,7 +55,7 @@ public class DebugActivity extends Activity
 			_output.setText(_output.getText()+"\nAction 1");
 			break;
 		case R.id.action2: // get data from web service using POST
-			_output.setText(_output.getText()+"\nAction 3");
+			_output.setText(_output.getText()+"\nAction 2");
 			break;
 		case R.id.action3: // Read button text from external file
 			_output.setText(_output.getText()+"\nAction 3");
