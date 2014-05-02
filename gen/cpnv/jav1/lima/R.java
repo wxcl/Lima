@@ -42,22 +42,21 @@ public final class R {
         public static final int valyears=0x7f030002;
     }
     public static final class string {
-        public static final int app_name=0x7f050001;
-        public static final int debTitle=0x7f050003;
-        public static final int empty=0x7f050010;
-        public static final int hello=0x7f050000;
-        public static final int uitDebugAction1=0x7f05000d;
-        public static final int uitDebugAction2=0x7f05000e;
-        public static final int uitDebugAction3=0x7f05000f;
-        public static final int uitMainDebug=0x7f050007;
-        public static final int uitMainDistribution=0x7f050006;
-        public static final int uitMainInventory=0x7f050005;
-        public static final int uitMainValidation=0x7f050004;
-        public static final int uitValNewYear=0x7f05000c;
-        public static final int uitValYear2014=0x7f05000b;
-        public static final int uitValmenuBook=0x7f05000a;
-        public static final int uitValmenuBooks=0x7f050009;
-        public static final int uitValmenuYears=0x7f050008;
-        public static final int valTitle=0x7f050002;
+        public static final int app_name=0x7f050000;
+        public static final int debTitle=0x7f050002;
+        public static final int empty=0x7f05000f;
+        public static final int uitDebugAction1=0x7f05000c;
+        public static final int uitDebugAction2=0x7f05000d;
+        public static final int uitDebugAction3=0x7f05000e;
+        public static final int uitMainDebug=0x7f050006;
+        public static final int uitMainDistribution=0x7f050005;
+        public static final int uitMainInventory=0x7f050004;
+        public static final int uitMainValidation=0x7f050003;
+        public static final int uitValNewYear=0x7f05000b;
+        public static final int uitValYear2014=0x7f05000a;
+        public static final int uitValmenuBook=0x7f050009;
+        public static final int uitValmenuBooks=0x7f050008;
+        public static final int uitValmenuYears=0x7f050007;
+        public static final int valTitle=0x7f050001;
     }
 }
