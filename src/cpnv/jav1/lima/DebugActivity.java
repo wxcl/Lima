@@ -80,7 +80,7 @@ public class DebugActivity extends Activity
 			Log.i ("LIMA","Select * from Acronymes Where Acronyme Like 'A%'");
 			
 			// Wait for completion
-			while (asyncHttpPost.getMyStatus() == 0) 
+			while (asyncHttpPost.getMyStatus() == 0)
 				try {
 					Thread.sleep(500); // don't hog the CPU with a loop
 				} catch (InterruptedException e) {
