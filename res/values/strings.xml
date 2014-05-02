@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, PuzzleActivity!</string>
+    <string name="app_name">Lima</string>
+    <string name="valTitle">Lima - Validation</string>
+    <string name="debTitle">Lima - Debug</string>
+    <string name="uitMainValidation">Validation</string>
+    <string name="uitMainInventory">Inventaire</string>
+    <string name="uitMainDistribution">Distribution</string>
+    <string name="uitMainDebug">Debug</string>
+    <string name="uitValmenuYears">Année</string>
+    <string name="uitValmenuBooks">Ouvrages</string>
+    <string name="uitValmenuBook">Ouvrage</string>
+    <string name="uitValYear2014">2014</string>
+    <string name="uitValNewYear">Nouvelle Année</string>
+    <string name="uitDebugAction1">Action 1</string>
+    <string name="uitDebugAction2">Action 2</string>
+    <string name="uitDebugAction3">Action 3</string>
+    <string name="empty"></string>
+    
+</resources>
