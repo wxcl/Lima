@@ -61,7 +61,7 @@ public class DebugActivity extends Activity
 		_output = (TextView)findViewById(R.id.outputzone);
     }
 
-	// Any click on this screen will invoke this handler
+	// Any click on this screen will invoke this handler 
 	@Override
 	public void onClick(View btn) {
 		// Let's see which action must be performed
