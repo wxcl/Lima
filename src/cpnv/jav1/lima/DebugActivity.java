@@ -67,7 +67,7 @@ public class DebugActivity extends Activity
 		// Let's see which action must be performed
 		switch (btn.getId()) 
 		{
-		case R.id.action1: // Add timestamp to the debug text
+		case R.id.action1: // 
 			LimaDb myDb = new LimaDb("http://192.168.0.10");
 			if (!myDb.connectionIsOK())
 			{
@@ -75,22 +75,34 @@ public class DebugActivity extends Activity
 				return;
 			}
 
-			if(myDb.select("SELECT * FROM person"))
+			int n = myDb.executeQuery("INSERT INTO person (personfirstname,personlastname) VALUES ('James','BLUNT')");
+			n = myDb.executeQuery("UPDATE person SET personlastname='BLOUNT' WHERE personlastname='BLUNT'");
+			n = myDb.executeQuery("DELETE FROM person WHERE personlastname='BLOUNT'");
+			n = myDb.executeQuery("SELECT * FROM person");
+			if(n > 0)
 			{
-				int n = 0;
+				_output.setText("Sélectionné "+n+" enregistrement(s)\n");
 				while (myDb.moveNext())
-					_output.setText(_output.getText()+myDb.getField("personfirstname")+" "+myDb.getField("personlastname")+"\n");
+				{
+					append ("Nom:"+myDb.getField("personlastname"));
+				}
 			}
 			
 			break;
-		case R.id.action2: // test database
+		case R.id.action2: // 
 			Time now = new Time();
 			now.setToNow();
-			_output.setText(_output.getText()+"\n"+now.toString());
+			append(now.toString());
 			break;
 		case R.id.action3: // 
 			break;
 		}
+	}
+	
+	// Append a new line at the end of the display
+	private void append(String l)
+	{
+		_output.setText(_output.getText()+"\n"+l);
 	}
 		
 }
