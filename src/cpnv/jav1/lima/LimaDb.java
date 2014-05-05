@@ -12,10 +12,9 @@ import org.xmlpull.v1.XmlPullParserFactory;
 import android.util.Log;
 import android.widget.Toast;
 
+/** Class that allows access to the Lima database through a web service
+*/
 public class LimaDb {
-// Class that allows access to the Lima database through a web service
-// Author: X. Carrel
-// Date: May 2014
 	
 	final String LIMA_ERROR_FIELD_DOES_NOT_EXIST = ">>>Lima error: that field does not exist<<<";
 	
